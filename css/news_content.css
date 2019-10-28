@@ -1,0 +1,15 @@
+/*主题一PC端*/
+.theme1-p{background: url(../img/li-l.jpg) no-repeat;background-size: cover;padding-top: 6%;min-width: 960px;margin: 0 auto;padding-bottom: 20%;height: 400px;}
+.theme1-p-content{max-width: 960px;margin: 0 auto;}
+.theme1-p-content h1{color: #FFFFFF;font-size: 55px;line-height: 66px;font-weight: 800;padding: 100px 50px 20px;}
+/*移动端*/
+.theme-m{margin-bottom: 10px;background: url(../img/li-l.jpg) no-repeat;background-size: 100%;padding-top: 6%;padding-bottom: 15%;padding-right: 10%;}
+.theme-m .theme-m-content h1{font-size: 30px;padding-left: 10px;font-weight: normal;color: #FFFFFF;padding-top: 30px;}
+.theme-m h2{margin: 0;position: absolute;top: 60px;font-size: 21px;line-height: 26px;color: #FFFFFF;border-bottom: 1px solid #CCCCCC; width: 100%;padding-bottom: 10px;}
+/*主题内容*/
+.news{max-width: 960px;margin: 0px auto;padding: 10px 0;}
+.tab-content h3{text-align: center !important;padding: 20px;margin: 0;}
+.tab-content .tab-pane {margin-bottom: 20px;border: 1px solid #CCCCCC;border-top: none;}
+.tab-content .tab-pane .imges{margin: 10px;text-align: center;}
+.tab-content .tab-pane img{width: 60%;}
+.tab-content p{width: 660px;margin: 0 auto;line-height: 2.5em;text-indent: 2em;}

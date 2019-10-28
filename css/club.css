@@ -1,0 +1,20 @@
+/*主题一PC端*/
+.theme1-p{background: url(../img/club.jpg) no-repeat;background-size: cover;padding-top: 6%;min-width: 960px;margin: 0 auto;padding-bottom: 20%;height: 400px;}
+.theme1-p-content{max-width: 960px;margin: 0 auto;}
+.theme1-p-content h1{color: #FFFFFF;font-size: 55px;line-height: 66px;font-weight: 800;padding: 100px 50px 20px;}
+/*移动端*/
+.theme-m{margin-bottom: 10px;background: url(../img/club.jpg) no-repeat;background-size: 100%;padding-top: 6%;padding-bottom: 15%;padding-right: 10%;}
+.theme-m .theme-m-content h1{font-size: 30px;padding-left: 10px;font-weight: normal;color: #FFFFFF;padding-top: 30px;}
+.theme-m h2{margin: 0;position: absolute;top: 60px;font-size: 21px;line-height: 26px;color: #FFFFFF;border-bottom: 1px solid #CCCCCC; width: 100%;padding-bottom: 10px;}
+/*主题内容*/
+.clubs{max-width: 960px;margin: 10px auto 0;padding-top: 20px;}
+/*左边*/
+.left h1{font-size: 34px;line-height: 40px;color: #323232;font-weight: 800;margin-bottom: 24px;}
+.left h5{font-weight: 600;}
+.left .imgs{margin: 0 20px;}
+.left .imgs img{max-height: 80%;max-width: 80%;}
+/*右边*/
+.right h3{font-size: 21px;line-height: 26px;color: #323232;font-weight: 800;margin-bottom: 13px;}
+.right .list_1 p i{margin:10px;float: left;overflow: hidden;padding-right: 50px; color: #1d4c84;}
+.right .list_1 .ul_1 li:first-child{margin-bottom: 10px;font-weight: 800;}
+.right .content{margin: 20px 0;line-height: 1.5;padding: 10px;}

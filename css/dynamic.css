@@ -1,0 +1,29 @@
+.Lables{margin: 0 auto;max-width: 960px;}
+.Lables .container-fluid{margin: 10px auto;max-width: 960px;}
+/*左侧标签页*/
+.Lables .left{padding-left: 0;}
+.Lables .left ul li a{font-weight: bold;color: #022573;}
+.Lables .tab-content{position: relative;border: 1px solid #DDDDDD;border-top: none;}
+.chart{height: 180px;padding: 15px 10px;border-bottom: 1px dashed #CCCCCC;}
+.chart .img-lable{float: left;overflow: hidden;}
+.chart img{width: 200px;padding-right: 10px;}
+.chart h4{font-size: 17px;}
+.chart>.nar{color: #5E5E5E;}
+.chart .right{position: absolute;right: 10px;}
+.chart .right a{width: 120px;background: #15A9D4;color: #FFFFFF;padding: 10px 15px;border-radius: 5px;font-size: 13px;}
+.List{margin-top: 25px;}
+.List ul li {display: inline-block;}
+.List ul li a{background: #EFEFEF;color: #022573;padding: 3px 7px;margin: 0 5px;}
+/*右侧标签页*/
+.chart-r{height: 120px;padding: 10px;box-shadow: 2px 2px 2px #CCCCCC ;margin-bottom: 20px;}
+.Lables .right span{margin: 10px 0 15px;}
+.Lables .right span a{font-weight: bold;color: #022573;font-size: 16px;}
+.chart-r .img{float: left;overflow: hidden;}
+.chart-r img{width: 100px;padding-right: 10px;}
+.chart-r h4{font-size: 17px;color: #022573;margin-top: 0;white-space: nowrap;overflow: hidden;text-overflow: ellipsis;width: 160px;}
+.chart-r .right a{width: 120px;background: #15A9D4;color: #FFFFFF;padding: 7px 10px;border-radius: 5px;font-size: 13px;}
+.chart-r .right{text-align: right;}
+/*回到顶部*/
+.backtop{position: fixed;z-index: 10;bottom: 10px;right: 10px;display: none;}
+.backtop i{font-size: 28px;color: rgba(255,255,255,.5);background: rgba(128,128,128,.5);}
+

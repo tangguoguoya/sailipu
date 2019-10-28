@@ -1,0 +1,20 @@
+/*主题一PC端*/
+.theme1-p{background: url(../img/ultrasound-l.jpg) no-repeat;background-size: cover;padding-top: 6%;min-width: 960px;margin: 0 auto;padding-bottom: 20%;}
+.theme1-p-content{max-width: 960px;margin: 0 auto;}
+.theme1-p-content h1{font-weight: normal;font-size: 35px;margin-bottom: 20px;}
+.theme1-p-content p{font-size: 25px;color: #000000;}
+/*移动端*/
+.theme-m{margin-bottom: 10px;background: url(../img/ultrasound-l.jpg) no-repeat;background-size: 100%;padding-top: 6%;padding-bottom: 15%;padding-right: 10%;}
+.theme-m .theme-m-content h1{font-size: 30px;padding-left: 10px;font-weight: normal;}
+.theme-m .theme-m-content p{font-size: 20px;padding-left: 10px;width: 320px;}
+/*内容*/
+.detail{max-width: 960px;margin: 10px auto 0;}
+.detail .container-fluid {max-width: 960px;margin: 0 auto;padding: 0;}
+.content {width: 100%;}
+.share{float: right;}
+.content p:first-child{font-size: 16px;}
+.content h4{text-align: center;}
+.content .left{border-bottom: 1px solid #CCCCCC;padding-bottom: 10px;}
+.content p:nth-child(6),.content p:nth-child(7){margin:0;}
+.content .return {background: #15a9d4;display: inline-block;color: #FFFFFF;padding: 5px;}
+.content .detail-img{width: 320px;margin: 10px auto;}

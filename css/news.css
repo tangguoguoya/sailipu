@@ -1,0 +1,28 @@
+/*主题一PC端*/
+.theme1-p{background: url(../img/li-l.jpg) no-repeat;background-size: cover;padding-top: 6%;min-width: 960px;margin: 0 auto;padding-bottom: 20%;height: 400px;}
+.theme1-p-content{max-width: 960px;margin: 0 auto;}
+.theme1-p-content h1{color: #FFFFFF;font-size: 55px;line-height: 66px;font-weight: 800;padding: 100px 50px 20px;}
+/*移动端*/
+.theme-m{margin-bottom: 10px;background: url(../img/li-l.jpg) no-repeat;background-size: 100%;padding-top: 6%;padding-bottom: 15%;padding-right: 10%;}
+.theme-m .theme-m-content h1{font-size: 30px;padding-left: 10px;font-weight: normal;color: #FFFFFF;padding-top: 30px;}
+.theme-m h2{margin: 0;position: absolute;top: 60px;font-size: 21px;line-height: 26px;color: #FFFFFF;border-bottom: 1px solid #CCCCCC; width: 100%;padding-bottom: 10px;}
+/*主题内容*/
+.news{max-width: 960px;margin: 10px auto 0;padding-top: 20px;}
+/*新闻*/
+.list{margin-bottom: 30px;}
+.list .item.odd{background-color: #EFEFEF;}
+.list .item:hover *{background: #21a2c6;color: #FFFFFF;}
+.list .inner{overflow: hidden;display: block;padding: 30px 0;}
+.list .time{float: left;width: 200px;margin-right: 40px;text-align: center;color: #999;}
+.list .time p{font-size: 54px;line-height: 70px;}
+.list .time span{border-top: 2px solid #CCCCCC;padding-top: 10px;}
+.list .txt{overflow: hidden;padding-right: 50px;font-family: "微软雅黑";}
+.list .txt h3{font-weight: bold;font-size: 18px;color: #333333;}
+.list .txt p{color: #5E5E5E;}
+/*列表*/
+.page {padding: 20px 0 10px;margin-bottom: 50px;font-size: 0;text-align: center;}
+.page .one{border:none;color: #fff;background-color: #034d84;}
+.page li {display: inline-block;margin: 0 5px 10px;font-size: 14px;color: #666;border: 1px solid #666;}
+.page li a{height: 29px;padding: 0 10px;color: #666;}
+.page li:nth-child(3) a{color: #FFFFFF;}
+.page li a:hover{border-color: #FFF;color: #fff;background-color: #034d84;}

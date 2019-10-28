@@ -1,0 +1,52 @@
+$(function(){
+	//logo的鼠标经过事件
+	$(".logo-box").mouseenter(function(){
+		$(".logo2").stop().animate({height:"50px"})
+	}).mouseleave(function(){
+		$(".logo2").stop().animate({height:"0px"})
+	})
+//	回到顶部
+	//谷歌和其他浏览器的鼠标滑动事件
+	addEventListener("mousewheel",function(){
+		//document.body.scrollTop 谷歌浏览器获取位置
+		var scroll_1=document.body.scrollTop||document.documentElement.scrollTop;
+		//获取当前页面的滚动纵坐标的位置
+		if(scroll_1>300)
+		{
+			$(".backtop").css("display","block");
+		}
+		else
+		{
+			$(".backtop").css("display","none");
+		}
+		//点击事件
+		$(".backtop").click(function(){
+			document.body.scrollTop=document.documentElement.scrollTop=0;
+			$(".backtop").css("display","none");
+		})
+	})
+	//仅针对火狐的鼠标滚动事件
+	addEventListener("DOMMouseScroll",function(){
+		var scroll_1=document.body.scrollTop||document.documentElement.scrollTop;
+		//获取当前页面的滚动纵坐标的位置
+		if(scroll_1>270)
+		{
+			$(".backtop").css("display","block");
+		}
+		else
+		{
+			$(".backtop").css("display","none");
+		}
+		//点击事件
+		$(".backtop").click(function(){
+			document.body.scrollTop=document.documentElement.scrollTop=0;
+			$(".backtop").css("display","none");
+		})
+	})
+	//侧边栏
+	$(".sidebar").mousemove(function(){
+		$(this).stop().animate({"right":"0"})
+	}).mouseleave(function(){
+		$(this).stop().animate({"right":"-40px"})
+	})
+})
